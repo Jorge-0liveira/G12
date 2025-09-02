@@ -243,7 +243,7 @@ body {
 }
 
 .sobre-card {
-  background: #fff;
+  background: #ffffff;
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -413,6 +413,7 @@ body {
     padding: 20px 0;
     display: none; /* escondido por padrão */
   }
+}
 @media (max-width: 768px) {
   .footer-links {
     flex-direction: column; /* coloca os links em coluna */
@@ -467,6 +468,5 @@ body {
 @media (max-width: 768px) {
   .navbar {
     flex-wrap: wrap;
-  }
   }
 }
