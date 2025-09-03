@@ -99,6 +99,17 @@ body {
   animation: fade-up 1.5s ease;
 }
 
+@media (max-width: 768px) {
+  .btn-main {
+    width: 100%;          /* ocupa toda a largura da tela */
+    max-width: 300px;     /* não fica exagerado */
+    padding: 0.6rem 1rem; /* menos "gordo" */
+    font-size: 0.9rem;    /* fonte um pouco menor */
+    display: block;       /* garante que quebre linha */
+    margin: 0 auto;       /* centraliza horizontalmente */
+  }
+}
+
 .btn-main:hover {
   background: #ff944d;
 }
